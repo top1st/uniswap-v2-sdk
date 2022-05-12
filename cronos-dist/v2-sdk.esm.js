@@ -4,7 +4,7 @@ import invariant from 'tiny-invariant';
 import { keccak256, pack } from '@ethersproject/solidity';
 import { getCreate2Address } from '@ethersproject/address';
 
-var FACTORY_ADDRESS = '0xE98FaA8d9Fb2d65d8BF5aF407D3e5F3C7Eae397c';
+var FACTORY_ADDRESS = '0x59fc6CBc7F19AD1b94f74d84d2F6e0407c27E2c5';
 var INIT_CODE_HASH = '0x697156375092f0dd365b9d117f6db5edec709e41183fea4d55663939c64829c2';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
